@@ -65,10 +65,10 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Personalp',
+        'NAME': 'proyectop',
         'USER': 'root',
         'PASSWORD': 'Rjrj83rj',
-        'HOST': 'localhost', 
+        'HOST': '127.0.0.1', 
         'PORT': '3306',
     }
 }
